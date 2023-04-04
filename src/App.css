@@ -1,0 +1,20 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #f9fbfc;
+  min-height: 100vh;
+  width: 100vw;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  padding: 0 2rem 0 2rem;
+  font-size: 1.25rem;
+  letter-spacing: 0.15rem;
+  font-family: 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif
+}
